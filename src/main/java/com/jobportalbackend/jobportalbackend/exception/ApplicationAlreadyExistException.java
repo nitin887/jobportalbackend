@@ -1,0 +1,7 @@
+package com.jobportalbackend.jobportalbackend.exception;
+
+public class ApplicationAlreadyExistException extends RuntimeException {
+    public ApplicationAlreadyExistException(String message) {
+        super(message);
+    }
+}
